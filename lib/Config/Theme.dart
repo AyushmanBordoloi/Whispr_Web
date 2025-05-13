@@ -5,9 +5,7 @@ var lightTheme = ThemeData();
 var darkTheme = ThemeData(
   brightness: Brightness.dark,
   useMaterial3: true,
-  appBarTheme: AppBarTheme(
-    backgroundColor: dContainerColor,
-  ),
+  appBarTheme: AppBarTheme(backgroundColor: dContainerColor),
 
   inputDecorationTheme: InputDecorationTheme(
     fillColor: dBackgroundColor,
@@ -15,7 +13,7 @@ var darkTheme = ThemeData(
     border: UnderlineInputBorder(
       borderSide: BorderSide.none,
       borderRadius: BorderRadius.circular(10),
-    )
+    ),
   ),
 
   colorScheme: const ColorScheme.dark(
@@ -48,7 +46,7 @@ var darkTheme = ThemeData(
       fontFamily: "Poppins",
       fontWeight: FontWeight.w600,
     ),
-    
+
     bodyLarge: TextStyle(
       fontSize: 18,
       color: dOnBackgroundColor,
@@ -63,7 +61,7 @@ var darkTheme = ThemeData(
       fontWeight: FontWeight.w500,
     ),
 
-    labelLarge: TextStyle(  
+    labelLarge: TextStyle(
       fontSize: 15,
       color: dOnContainerColor,
       fontFamily: "Poppins",
