@@ -108,7 +108,7 @@ class MobileHomePage extends StatelessWidget {
               decoration: BoxDecoration(
                 color: Theme.of(context).colorScheme.primary,
                 image: DecorationImage(
-                  image: AssetImage("assets/Photos/main.png"),
+                  image: AssetImage("assets/Photos/Main.png"),
                 ),
                 shape: BoxShape.circle,
               ),
@@ -140,24 +140,24 @@ class MobileHomePage extends StatelessWidget {
                 ),
                 SizedBox(height: 20),
                 WebFeatureTileMobile(
-                  icon: Icons.info,
-                  title: "Easy to use",
+                  icon: Icons.message,
+                  title: "Real time messaging",
                   description:
-                      "Whispr is an easy to use chatting application where you can connect with each other",
+                      "Chat with friends in real-time with a smooth and responsive chat interface.",
                 ),
                 SizedBox(height: 20),
                 WebFeatureTileMobile(
-                  icon: Icons.info,
-                  title: "Easy to use",
+                  icon: Icons.call,
+                  title: "Voice & Video Calls",
                   description:
-                      "Whispr is an easy to use chatting application where you can connect with each other",
+                      "Connect with your friends with reliable and high-quality voice and video call support.",
                 ),
                 SizedBox(height: 20),
                 WebFeatureTileMobile(
-                  icon: Icons.info,
-                  title: "Easy to use",
+                  icon: Icons.security,
+                  title: "Secure & Private",
                   description:
-                      "Whispr is an easy to use chatting application where you can connect with each other",
+                      "Your messages and calls are protected securely ensuring conversations stay private.",
                 ),
               ],
             ),

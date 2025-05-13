@@ -59,13 +59,13 @@ class WebHomePage extends StatelessWidget {
                     icon: Icons.info,
                     title: "Easy to use",
                     description:
-                        "Whispr is an easy to use chatting application where you can connect with each other",
+                        "Whispr is an easy to use chatting application where you can connect with each other.",
                   ),
                   WebFeatureTile(
-                    icon: Icons.info,
-                    title: "Easy to use",
+                    icon: Icons.message,
+                    title: "Real time messaging",
                     description:
-                        "Whispr is an easy to use chatting application where you can connect with each other",
+                        "Chat with friends in real-time with a smooth and responsive chat interface.",
                   ),
                 ],
               ),
@@ -74,16 +74,16 @@ class WebHomePage extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
                   WebFeatureTile(
-                    icon: Icons.info,
-                    title: "Easy to use",
+                    icon: Icons.call,
+                    title: "Voice & Video Calls",
                     description:
-                        "Whispr is an easy to use chatting application where you can connect with each other",
+                        "Connect with your friends with reliable and high-quality voice and video call support.",
                   ),
                   WebFeatureTile(
-                    icon: Icons.info,
-                    title: "Easy to use",
+                    icon: Icons.security,
+                    title: "Secure & Private",
                     description:
-                        "Whispr is an easy to use chatting application where you can connect with each other",
+                        "Your messages and calls are protected securely ensuring conversations stay private.",
                   ),
                 ],
               ),
